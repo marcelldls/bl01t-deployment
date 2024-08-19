@@ -14,7 +14,7 @@ destination:
   namespace: esq51579
 source:
   repoURL: https://github.com/marcelldls/bl01t-services
-  targetRevision: 2024.8.3
+  targetRevision: 2024.8.2
 
 # list of services to deploy. Each item is of the form:
 # - service: service name as it appears in K8S (statefulset/deployment name)
@@ -33,4 +33,4 @@ services:
   bl01t-ea-test-01:
     enabled: true
     ec_service: true
-    targetRevision: 2024.8.3
+    targetRevision: 2024.8.2
